@@ -1,0 +1,105 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-image: url("../public/glassesImage/background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: black;
+  z-index: -1;
+}
+.myContainer {
+  background-color: rgba(0, 0, 0, 0.354);
+  width: 100vw;
+  height: 100vh;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+nav {
+  background-color: rgba(13, 9, 9, 0.629);
+  height: 100px;
+  z-index: 99;
+}
+.myTitle {
+  font-size: 35px;
+  font-weight: 700;
+  color: rgb(255, 255, 255);
+}
+
+.leftIMG, .rightIMG {
+  width: 220px;
+  height: 270px;
+  margin-top: 50px;
+}
+#glassesList img {
+  padding:3px;
+}
+
+.leftIMG {
+  margin-left: 300px;
+}
+.rightIMG {
+  margin-right: 300px;
+}
+
+
+.glassesWrap {
+  height: 160px;
+  width: 760px;
+  background-color: white;
+  margin: auto;
+  margin-top: 50px;
+  padding: 25px 40px;
+  
+}
+.glassesWrap .col-2 {
+  align-self: center;
+  padding: 0;
+}
+.myItem {
+  height: 50%;
+  width: 50%;
+  padding: 0;
+  margin: 0;
+}
+
+.glassesItem img{
+  position: absolute;
+  height: 43px;
+  width: 118px;
+  top: 36%;
+  left: 63%;
+  opacity: 0.8;
+}
+
+.vglasses__card{
+  position: relative;
+  overflow: hidden;
+}
+.vglasses__info {
+  position: absolute;
+  bottom: 0;
+  right: 12%;
+  background-color: rgba(0,0,0,0.7);
+  width: 32.3%;
+}
+.vglasses__info h2 {
+  text-align: left;
+  margin-top: 8px;
+  margin-left: 8px;
+  font-size: 15px;
+}
+.vglasses__info p {
+  text-align: left;
+  margin-top: 8px;
+  font-size: 11px;
+  color: white;
+  padding: 5px;
+}
